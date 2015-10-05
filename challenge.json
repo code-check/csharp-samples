@@ -1,0 +1,12 @@
+﻿{
+    "editable": [
+        "src/Sum.cs"
+    ],
+    "excludes": [
+        ".gitignore",
+        "challenge.json",
+        "src/Defaults.cs",
+        "src/SumTest.cs"
+    ],
+    "test": "nunit-console target/LINQTest.dll"
+}
